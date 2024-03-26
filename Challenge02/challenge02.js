@@ -23,7 +23,7 @@ const calcUser = () => {
   } 
 }
 
-const = checkUser () => {
+const checkUser = () => {
 	if (user && state === 'requesting') {
 		console.log(`User: ${user} (${calculated})`)
 	}
