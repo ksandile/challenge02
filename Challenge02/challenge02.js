@@ -11,11 +11,15 @@ const = logCalc () => {
     calculated === calculatedAsNumber + 1 
 }
 
-const = calcUser () => {
-  logCalc
-  if (calculated > 2) user = 'John'
-  if (calculated > 2) state = 'requesting'
-  if (calculated > 3) state = 'idle'
+const calcUser = () => {
+  logCalc();
+  if (calculated > 2){
+    user = 'John';
+    state = 'requesting';
+  } 
+  if (calculated > 3){
+    state = 'idle';
+  } 
 }
 
 const = checkUser () => {
