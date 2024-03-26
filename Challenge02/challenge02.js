@@ -11,7 +11,7 @@ const = logCalc () => {
     calculated === calculatedAsNumber + 1 
 }
 
-const  calcUser = () => {
+const calcUser = () => {
   logCalc();
   if (calculated > 2){
     user = 'John';
