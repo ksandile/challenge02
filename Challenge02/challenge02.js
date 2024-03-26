@@ -7,11 +7,12 @@ let calculated = '1';
 
 const logCalc = () => { 
     if (typeof calculated === 'string'){
-      const calculatedAsNumber = parseNumber(calculated);
+      calculated = Number(calculated);
     }
-    calculated = calculatedAsNumber + 1;
+    calculated = calculated + 1;
 }
-
+logCalc();
+console.log(calculated);
 const = calcUser () => {
   logCalc
   if (calculated > 2) user = 'John'
