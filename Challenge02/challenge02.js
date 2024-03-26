@@ -11,8 +11,7 @@ const logCalc = () => {
     }
     calculated = calculated + 1;
 }
-logCalc();
-console.log(calculated);
+
 const = calcUser () => {
   logCalc
   if (calculated > 2) user = 'John'
