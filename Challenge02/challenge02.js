@@ -6,8 +6,9 @@ let calculated = '1';
 
 
 const logCalc = () => { 
-    const isString = typeof calculated === 'string' ;
-    const calculatedAsNumber = isString ? calculated : parseNumber(calculated);
+    if (typeof calculated === 'string'){
+      const calculatedAsNumber = parseNumber(calculated);
+    }
     calculated = calculatedAsNumber + 1;
 }
 
